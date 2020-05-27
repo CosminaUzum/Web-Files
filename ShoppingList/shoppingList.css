@@ -1,0 +1,20 @@
+@import "compass/css3";
+
+h1{
+	color: brown;
+	/*border-color: green;
+	border-width: 5px;
+	border-style: solid;*/
+	border: 5px solid green;
+}
+table {
+	background: yellow;
+}
+th{
+	background: rgb(0,107,47);
+}
+body {
+	background: url(https://media.brstatic.com/2019/01/23163818/I-only-spend-150-a-month-on-groceries-heres-how.jpg);
+	background-size: cover;
+
+
