@@ -1,0 +1,27 @@
+body{
+	background: url(https://scontent.ftsr1-1.fna.fbcdn.net/v/t1.0-9/70901589_130122511657817_5015523067212857344_n.jpg?_nc_cat=102&_nc_oc=AQmyMBClASa01tC00pG8x0Ny_auz2sgLrE5Hux2tU3vx7WAzH-hOTAFp_FXm3Ek68-ohk1ZXLiWDCV-7hFmkbWQj&_nc_ht=scontent.ftsr1-1.fna&oh=faa7e8e6a8f8845afeb4e54bf3f4103d&oe=5E3B5FFC); 
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	color: #bbff99 ;
+}
+html {
+	height: 100%;
+}
+#content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,9,0),
+				 0px 8px 13px rgba(0,0,9,1),
+				 0px 18px 23px rgba(0,0,9,1);
+}
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+
+}
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
