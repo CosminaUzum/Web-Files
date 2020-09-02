@@ -1,0 +1,29 @@
+body {
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section {
+  position: relative;
+  max-width: 950px;
+  min-height: 75vh;
+  padding: 20px;
+  margin: auto;
+  background-color: #336699;
+  color: #ffffff;
+}
+.section.bg-static {
+  background-color: #85c1e9;
+  background-image: url("https://cdn.pixabay.com/photo/2020/02/05/15/47/natural-4821583_1280.png");
+  background-size: cover;
+  background-position: center;
+}
+.section .bg-move {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: auto;
+  width: 50%;
+  background-image: url("moon.svg");
+  background-size: cover;
+  background-position: center;
+}
