@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title>Dropdown_5</title>
+    <style type="text/css">
+        body
+        {
+            font-family: Arial;
+            font-size: 10pt;
+            background-color:#ffdfee;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#answer").change(function () {
+                if ($(this).val() == "Y") {
+                    $("#dropdown").show();
+                } else {
+                    $("#dropdown").hide();
+                }
+            });
+        });
+    </script>
+    <h2><span>Do you look for drop-down?</span></h2>
+    <select id="answer">
+        <option value="N">No</option>
+        <option value="Y">Yes</option>
+    </select>
+    <hr />
+    <div id="dropdown" style="display: none">
+       <h2> What kind of drop-down are you looking for?</h2>
+        <input type="text" id="answer2" />
+    </div>
+</body>
+</html>

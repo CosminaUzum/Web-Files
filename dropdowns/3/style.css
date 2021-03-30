@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pavanam&family=Roboto:wght@700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+    font-family: "Pavanam", sans-serif;
+}
+:root{
+  --blue:#00ccfe;
+  --white:#fff;
+  --black:#000;
+}
+body{
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.content{
+  background:linear-gradient(to right, #1f1c2c, #928dab);;
+  width: 800px;
+  margin: 20px;
+  height: auto;
+  left: 45%;
+  top: 40%;
+  font-family: "Pavanam", sans-serif;
+}
+
+
+
+.content .card {
+  width:auto;
+  padding: 30px;
+   margin: 0;
+}
+body {
+  font-family: "Montserrat";
+  text-align: justify;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgb(18, 23, 27);
+  color: aliceblue;
+}
+.text {
+  font-size: 24px;
+}
+.moreText {
+  display: none;
+}
+.read-more-btn {
+  padding: 15px 60px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.text.show-more .moreText {
+  display: inline;
+}
+.text.show-more .dots {
+  display: none;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<title> 
+		Dropdown
+	</title>
+	<link rel="icon" type="image/gif/png" href="../../src/svg/purple.png">
+
+	<style>
+
+	body {
+		background-color: #fffbf3;
+	} 
+		ul { 
+			padding: 0; 
+			list-style: none; 
+			background: #b6f9f7; 
+		} 
+
+		ul li { 
+			display: block; 
+			position: relative; 
+			line-height: 21px; 
+			text-align: left; 
+		} 
+
+		ul li a { 
+			display: block; 
+			padding: 8px 25px; 
+			color: #333; 
+			text-decoration: none; 
+		} 
+
+		ul li a:hover { 
+			color: #fff; 
+			background: #ffcb85; 
+		} 
+
+		ul li ul.dropdown { 
+			min-width: 100%; 
+			background: #b6f9f7; 
+			display: none; 
+			position: absolute; 
+			z-index: 999; 
+			left: 0; 
+		} 
+
+		ul li:hover ul.dropdown { 
+			display: block; 
+		} 
+	</style> 
+</head> 
+
+<body> 
+	
+	<h2>	</h2> 
+
+	<ul> 
+		<li> 
+			<a href="index.html"><h2>1</h2> Drop_down_navbar whith hover</a> 
+			<ul class="dropdown"> 
+				<li><a href="2/index.html"><h2>2</h2>Drop_down sidebar and text with rotating arrow</a></li> 
+				<li><a href="3/index.html"><h2>3</h2>Drop_down text <span>Read more</span></a></li> 
+				<li><a href="4/index.html"><h2>4</h2>Drop_down text <span>Read less</span></a></li> 
+				<li><a href="jquery.html"><h2>5</h2> Drop_down input</a></li> 
+			</ul> 
+		</li> 
+	</ul> 
+
+</body> 
+
+</html> 
